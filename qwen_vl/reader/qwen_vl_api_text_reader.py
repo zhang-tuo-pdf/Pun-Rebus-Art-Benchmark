@@ -59,7 +59,7 @@ def process_list(model_name, word_list, output_file_path):
 if __name__ == '__main__':
     model = 'qwen-vl-max' # 'qwen-vl-plus' or 'qwen-vl-max'
     dashscope.api_key = "please enter you api keys"
-    file_path = '../../scorer/text_ground_answer.csv'
+    file_path = '../../scorer/answer_sheet_w_element.csv'
     word_list = get_word_list(file_path)
     output_name = model + '_word_results_apr_8.txt'
     output_path = '../text_answers/' + output_name

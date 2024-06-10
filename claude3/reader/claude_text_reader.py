@@ -52,7 +52,7 @@ def process_list(model, word_list, output_file_path):
                 print(f"Failed to process {chinese_word}: {e}")
 
 if __name__ == "__main__":
-    file_path = '../../scorer/text_ground_answer.csv'
+    file_path = '../../scorer/answer_sheet_w_element.csv'
     word_list = get_word_list(file_path)
     model = 'claude-3-haiku-20240307' # claude-3-opus-20240229, claude-3-sonnet-20240229, claude-3-haiku-20240307
     output_name = model + '_word_results_apr_9.txt'

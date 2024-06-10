@@ -61,7 +61,7 @@ def process_list(word_list, output_file_path):
 
 
 if __name__ == "__main__":
-    file_path = '../../scorer/text_ground_answer.csv'
+    file_path = '../../scorer/answer_sheet_w_element.csv'
     word_list = get_word_list(file_path)
     output_path = '../text_answers/gpt4o_word_results_apr_8_2.txt'
     process_list(word_list, output_path)
