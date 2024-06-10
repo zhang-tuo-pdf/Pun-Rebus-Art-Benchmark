@@ -17,5 +17,5 @@ This repo contains:
 
 
 <div align="center">
- <img src="cot-1.png" width="600px">
+ <img src="cot-1.png" width="800px">
 </div>
