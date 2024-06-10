@@ -76,7 +76,7 @@ if __name__ == "__main__":
     folder_path = "../../Pun Chinese Painting"
     model = 'claude-3-opus-20240229' # claude-3-opus-20240229, claude-3-sonnet-20240229, claude-3-haiku-20240307
     output_name = model + '_word_results_apr_14.txt'
-    output_path = '../text_answers/' + output_name
+    output_path = '../multiple_choice_answers/' + output_name
     prompt = "This is a traditional Chinese artwork that likely conveys its ideas, thoughts, or wishes through symbolic, punning, shape, color, figure, numeral, verb, preposition, character, loanword or alias through the artwork. \
             Carefully analyze the visual elements present in the artwork and select the option from the list below that best aligns with its conveyed meaning: \n \
             A. Longevity and Good Health \n \

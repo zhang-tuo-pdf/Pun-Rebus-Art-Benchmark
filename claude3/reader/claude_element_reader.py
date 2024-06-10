@@ -75,7 +75,7 @@ if __name__ == "__main__":
     folder_path = "../../Pun Chinese Painting"
     model = 'claude-3-haiku-20240307' # claude-3-opus-20240229, claude-3-sonnet-20240229, claude-3-haiku-20240307
     output_name = model + '_element_results_may_9.txt'
-    output_path = '../text_answers/' + output_name
+    output_path = '../element_answers/' + output_name
     prompt = "Please analyze the provided image carefully to identify key visual elements. Focus on components that traditionally have symbolic meaning in the cultural context from which the artwork originates.\
     Look for elements that might represent ideas, virtues, or wishes, especially those commonly found in nature or historical motifs.\
     For instance, in Chinese culture, certain animals and plants are known to symbolize specific messages when depicted in art. \
