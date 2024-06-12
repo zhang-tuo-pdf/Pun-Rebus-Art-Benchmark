@@ -72,7 +72,6 @@ def process_folder(prompt, folder_path, output_file_path):
 
 if __name__ == "__main__":
     genai.configure(api_key=GOOGLE_API_KEY)
-    # import pdb; pdb.set_trace()
     folder_path = "../../Pun Chinese Painting"
     model_type = 'gemini-pro-vision'
     output_name = model_type + '_word_results_apr_14.txt'
