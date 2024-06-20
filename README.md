@@ -45,6 +45,16 @@ python mc_image_scorer.py
 ## Contact
 We welcome researchers and enthusiasts interested in this program to join us in expanding and improving this valuable resource. Feel free to contact us if you are interested or have any questions during the usage!
 
+Please cite our paper for the usage
+```
+@inproceedings{Zhang2024CreatingAL,
+  title={Creating a Lens of Chinese Culture: A Multimodal Dataset for Chinese Pun Rebus Art Understanding},
+  author={Tuo Zhang and Tiantian Feng and Yibin Ni and Mengqin Cao and Ruying Liu and Katharine Butler and Yanjun Weng and Mi Zhang and Shrikanth S. Narayanan and Salman Avestimehr},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:270560580}
+}
+```
+
 Tuo Zhang tuozhang@usc.edu
 
 Tiantian Feng tiantiaf@usc.edu
