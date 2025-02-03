@@ -54,7 +54,7 @@ if __name__ == "__main__":
     model = model.eval()
     tokenizer = AutoTokenizer.from_pretrained('openbmb/MiniCPM-V-2_6', trust_remote_code=True)
     
-    folder_path = "../../Pun Chinese Painting"
+    folder_path = "../Pun Chinese Painting"
 
     # output_name = f'MiniCPM-V-2_6_word_results.txt'
     # os.makedirs("element_answers", exist_ok=True)
