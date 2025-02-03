@@ -81,7 +81,7 @@ if __name__ == "__main__":
     ) 
     model.to("cuda")
 
-    folder_path = "../../Pun Chinese Painting"
+    folder_path = "../Pun Chinese Painting"
     model_type = args.model.replace("/", "_")
     output_name = f'{model_type}_word_results.txt'
     os.makedirs("element_answers", exist_ok=True)
