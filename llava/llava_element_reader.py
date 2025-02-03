@@ -77,11 +77,11 @@ if __name__ == "__main__":
         args.model, 
         torch_dtype=torch.float16, 
         low_cpu_mem_usage=True,
-        cache_dir="/project/shrikann_35/tiantiaf/llm",
+        cache_dir="your model folder path",
     ) 
     model.to("cuda")
 
-    folder_path = "/scratch1/tiantiaf/pun-rebus/Pun_Chinese_Painting"
+    folder_path = "../../Pun Chinese Painting"
     model_type = args.model.replace("/", "_")
     output_name = f'{model_type}_word_results.txt'
     os.makedirs("element_answers", exist_ok=True)
