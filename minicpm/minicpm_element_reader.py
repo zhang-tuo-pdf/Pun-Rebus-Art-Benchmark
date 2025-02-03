@@ -48,13 +48,13 @@ if __name__ == "__main__":
 
     # Argument parser
     model = AutoModel.from_pretrained('openbmb/MiniCPM-V-2_6', trust_remote_code=True,
-    attn_implementation='sdpa', torch_dtype=torch.bfloat16, cache_dir="/vault/ultraz") # sdpa or flash_attention_2, no eager
+    attn_implementation='sdpa', torch_dtype=torch.bfloat16, cache_dir="your cache path") # sdpa or flash_attention_2, no eager
     device = 'cuda:5'
     model.to(device)
     model = model.eval()
     tokenizer = AutoTokenizer.from_pretrained('openbmb/MiniCPM-V-2_6', trust_remote_code=True)
     
-    folder_path = "/home/ultraz/Project/Pun-Rebus-Art-Benchmark/Pun Chinese Painting"
+    folder_path = "../../Pun Chinese Painting"
 
     # output_name = f'MiniCPM-V-2_6_word_results.txt'
     # os.makedirs("element_answers", exist_ok=True)
