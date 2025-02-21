@@ -28,6 +28,8 @@ bash download_images.sh
 ```
 The answer sheet for evaluating LVM responses is available at [this link](https://github.com/zhang-tuo-pdf/Pun-Rebus-Art-Benchmark/blob/main/scorer/answer_sheet_w_element.csv). This csv file contains the category and key element information of each conveyed stories inside the dataset.
 
+We also upload the punning details of each artwork in the json file named 'english_pun_detail.json' to accelerate the development!
+
 ## Usage
 In this file, we provide baseline evaluation code with GPT-4, Gemini, Claude 3, and Qwen-VL model families. For each model family, we provide three reader file for each basic tasks as we described in the paper. Take the readers for the GPT-4 model family as an example:
 ```
